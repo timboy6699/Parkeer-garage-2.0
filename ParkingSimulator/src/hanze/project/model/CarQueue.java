@@ -1,4 +1,4 @@
-package hanze.project;
+package hanze.project.model;
 
 import java.util.LinkedList;
 import java.util.Queue;

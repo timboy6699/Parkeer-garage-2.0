@@ -1,4 +1,6 @@
-package hanze.project;
+package hanze.project.model;
+
+import hanze.project.view.SimulatorView;
 
 import java.util.Random;
 
