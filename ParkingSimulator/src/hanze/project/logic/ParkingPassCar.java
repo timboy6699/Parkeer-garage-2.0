@@ -1,4 +1,4 @@
-package hanze.project.model;
+package hanze.project.logic;
 
 import java.util.Random;
 import java.awt.*;

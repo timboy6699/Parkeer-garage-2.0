@@ -1,7 +1,7 @@
 package hanze.project.view;
 
-import hanze.project.model.Car;
-import hanze.project.model.Location;
+import hanze.project.logic.Car;
+import hanze.project.logic.Location;
 
 import javax.swing.*;
 import java.awt.*;

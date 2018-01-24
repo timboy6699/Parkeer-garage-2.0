@@ -1,16 +1,16 @@
 package hanze.project.view;
 
-import hanze.project.model.AbstractModel;
+import hanze.project.logic.AbstractModel;
 
 import javax.swing.*;
 
 public abstract class AbstractView extends JPanel
 {
-    // all views have a certain model
+    // all views have a certain logic
     protected AbstractModel model;
 
     /**
-     * Constructor of AbstractView that expects a model belonging to this view.
+     * Constructor of AbstractView that expects a logic belonging to this view.
      *
      * @param model AbstractModel that belongs to this view.
      */

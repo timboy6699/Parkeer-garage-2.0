@@ -1,6 +1,6 @@
 package hanze.project.controller;
 
-import hanze.project.model.AbstractModel;
+import hanze.project.logic.AbstractModel;
 
 import javax.swing.*;
 
@@ -10,7 +10,7 @@ public abstract class AbstractController extends JPanel {
     protected AbstractModel model;
 
     /**
-     * Constructor of AbstractController with a model belong to this controller
+     * Constructor of AbstractController with a logic belong to this controller
      * @param model AbstractModel that belongs to this controller
      */
     public AbstractController(AbstractModel model) {

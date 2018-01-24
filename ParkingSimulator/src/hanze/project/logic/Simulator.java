@@ -1,10 +1,10 @@
-package hanze.project.model;
+package hanze.project.logic;
 
 import hanze.project.view.SimulatorView;
 
 import java.util.Random;
 
-public class Simulator {
+public class Simulator extends AbstractModel {
 
 	private static final String AD_HOC = "1";
 	private static final String PASS = "2";

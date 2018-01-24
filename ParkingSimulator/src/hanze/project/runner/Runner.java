@@ -1,14 +1,9 @@
 package hanze.project.runner;
 
-import hanze.project.model.Simulator;
+import hanze.project.main.*;
 
-public class Runner extends Thread {
-
-    public void run(){
-
-        Simulator simulator = new Simulator();
-        simulator.run();
-
+public class Runner {
+    public static void main(String[] args){
+        new ParkingSimulator();
     }
-
 }
