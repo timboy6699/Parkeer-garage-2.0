@@ -1,10 +1,18 @@
 package hanze.project.main;
 
+import hanze.project.controller.AbstractController;
 import hanze.project.model.Simulator;
+
+import javax.swing.*;
+
 
 public class ParkingSimulatorMain {
 
-    public static void main(String[] args) {
+    private Simulator simulator;
+    private JFrame screen;
+    private AbstractController SimulatorController;
+
+    public ParkingSimulatorMain(){
         Simulator simulator = new Simulator();
         simulator.run();
     }
